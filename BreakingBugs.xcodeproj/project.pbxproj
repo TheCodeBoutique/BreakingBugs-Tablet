@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5AC2DA6D1990154F0097D57E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2DA6C1990154F0097D57E /* AppDelegate.swift */; };
-		5AC2DA6F1990154F0097D57E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2DA6E1990154F0097D57E /* ViewController.swift */; };
-		5AC2DA721990154F0097D57E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC2DA701990154F0097D57E /* Main.storyboard */; };
 		5AC2DA741990154F0097D57E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AC2DA731990154F0097D57E /* Images.xcassets */; };
 		5AC2DA801990154F0097D57E /* BreakingBugsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2DA7F1990154F0097D57E /* BreakingBugsTests.swift */; };
 		5AC2DA8E199018990097D57E /* AltoState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2DA8C199018990097D57E /* AltoState.swift */; };
@@ -30,8 +28,6 @@
 		5AC2DA671990154F0097D57E /* BreakingBugs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakingBugs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC2DA6B1990154F0097D57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AC2DA6C1990154F0097D57E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5AC2DA6E1990154F0097D57E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5AC2DA711990154F0097D57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AC2DA731990154F0097D57E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5AC2DA791990154F0097D57E /* BreakingBugsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakingBugsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC2DA7E1990154F0097D57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,8 +77,6 @@
 			children = (
 				5AC2DA89199018790097D57E /* frameworks */,
 				5AC2DA6C1990154F0097D57E /* AppDelegate.swift */,
-				5AC2DA6E1990154F0097D57E /* ViewController.swift */,
-				5AC2DA701990154F0097D57E /* Main.storyboard */,
 				5AC2DA731990154F0097D57E /* Images.xcassets */,
 				5AC2DA6A1990154F0097D57E /* Supporting Files */,
 			);
@@ -219,7 +213,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AC2DA721990154F0097D57E /* Main.storyboard in Resources */,
 				5AC2DA741990154F0097D57E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,7 +232,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AC2DA8E199018990097D57E /* AltoState.swift in Sources */,
-				5AC2DA6F1990154F0097D57E /* ViewController.swift in Sources */,
 				5AC2DA8F199018990097D57E /* AltoStatechart.swift in Sources */,
 				5AC2DA6D1990154F0097D57E /* AppDelegate.swift in Sources */,
 			);
@@ -262,17 +254,6 @@
 			targetProxy = 5AC2DA7A1990154F0097D57E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5AC2DA701990154F0097D57E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5AC2DA711990154F0097D57E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5AC2DA811990154F0097D57E /* Debug */ = {
