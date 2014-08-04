@@ -12,6 +12,7 @@
 		5AC2DA801990154F0097D57E /* BreakingBugsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2DA7F1990154F0097D57E /* BreakingBugsTests.swift */; };
 		5AC2DA8E199018990097D57E /* AltoState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2DA8C199018990097D57E /* AltoState.swift */; };
 		5AC2DA8F199018990097D57E /* AltoStatechart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2DA8D199018990097D57E /* AltoStatechart.swift */; };
+		5AC2DA9619901D010097D57E /* BBInitializeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2DA9519901D010097D57E /* BBInitializeState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		5AC2DA7F1990154F0097D57E /* BreakingBugsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBugsTests.swift; sourceTree = "<group>"; };
 		5AC2DA8C199018990097D57E /* AltoState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AltoState.swift; sourceTree = "<group>"; };
 		5AC2DA8D199018990097D57E /* AltoStatechart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AltoStatechart.swift; sourceTree = "<group>"; };
+		5AC2DA9519901D010097D57E /* BBInitializeState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBInitializeState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +77,9 @@
 		5AC2DA691990154F0097D57E /* BreakingBugs */ = {
 			isa = PBXGroup;
 			children = (
-				5AC2DA89199018790097D57E /* frameworks */,
 				5AC2DA6C1990154F0097D57E /* AppDelegate.swift */,
+				5AC2DA9419901CBB0097D57E /* statechart */,
+				5AC2DA89199018790097D57E /* frameworks */,
 				5AC2DA731990154F0097D57E /* Images.xcassets */,
 				5AC2DA6A1990154F0097D57E /* Supporting Files */,
 			);
@@ -131,6 +134,14 @@
 				5AC2DA8D199018990097D57E /* AltoStatechart.swift */,
 			);
 			path = state_machine;
+			sourceTree = "<group>";
+		};
+		5AC2DA9419901CBB0097D57E /* statechart */ = {
+			isa = PBXGroup;
+			children = (
+				5AC2DA9519901D010097D57E /* BBInitializeState.swift */,
+			);
+			name = statechart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AC2DA8E199018990097D57E /* AltoState.swift in Sources */,
+				5AC2DA9619901D010097D57E /* BBInitializeState.swift in Sources */,
 				5AC2DA8F199018990097D57E /* AltoStatechart.swift in Sources */,
 				5AC2DA6D1990154F0097D57E /* AppDelegate.swift in Sources */,
 			);
