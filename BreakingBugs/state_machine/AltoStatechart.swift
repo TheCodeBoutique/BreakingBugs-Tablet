@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class AltoStatechart {
     class var sharedStateManager: AltoStatechart {
@@ -46,9 +47,9 @@ class AltoStatechart {
     func sendEvent (selector:Selector) {
         // make sure the currentState responds the the given selector
         if (currentState?.respondsToSelector(selector)) {
-            currentState?.forwardingTargetForSelector(selector)
+            UIApplication.sharedApplication().sendAction(selector, to:currentState,from: self, forEvent: nil)
         } else {
-        
+            
         }
     }
 }
