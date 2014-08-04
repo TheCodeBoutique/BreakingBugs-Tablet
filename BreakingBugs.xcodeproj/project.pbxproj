@@ -18,6 +18,8 @@
 		5AC2DAA019901EDE0097D57E /* BBRootContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2DA9F19901EDE0097D57E /* BBRootContainerView.swift */; };
 		5AC2DAA219902F300097D57E /* BBStatechart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2DAA119902F300097D57E /* BBStatechart.swift */; };
 		5AC2DAA419904C8C0097D57E /* BBDashboardState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2DAA319904C8C0097D57E /* BBDashboardState.swift */; };
+		5AC2DAA9199050E60097D57E /* BBDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2DAA8199050E60097D57E /* BBDashboardViewController.swift */; };
+		5AC2DAAC1990532C0097D57E /* BBDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2DAAB1990532C0097D57E /* BBDashboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		5AC2DA9F19901EDE0097D57E /* BBRootContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBRootContainerView.swift; sourceTree = "<group>"; };
 		5AC2DAA119902F300097D57E /* BBStatechart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBStatechart.swift; sourceTree = "<group>"; };
 		5AC2DAA319904C8C0097D57E /* BBDashboardState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBDashboardState.swift; sourceTree = "<group>"; };
+		5AC2DAA8199050E60097D57E /* BBDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBDashboardViewController.swift; sourceTree = "<group>"; };
+		5AC2DAAB1990532C0097D57E /* BBDashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBDashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +165,8 @@
 		5AC2DA9719901DB00097D57E /* view controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5AC2DA9B19901E9E0097D57E /* BBRootContainerViewController.swift */,
+				5AC2DAA7199050A30097D57E /* dashboard */,
+				5AC2DAA6199050930097D57E /* root container */,
 			);
 			name = "view controllers";
 			sourceTree = "<group>";
@@ -177,17 +182,18 @@
 		5AC2DA9D19901EAE0097D57E /* views */ = {
 			isa = PBXGroup;
 			children = (
-				5AC2DA9E19901EC50097D57E /* root container view */,
+				5AC2DAAA199053120097D57E /* dashboard */,
+				5AC2DA9E19901EC50097D57E /* root container */,
 			);
 			name = views;
 			sourceTree = "<group>";
 		};
-		5AC2DA9E19901EC50097D57E /* root container view */ = {
+		5AC2DA9E19901EC50097D57E /* root container */ = {
 			isa = PBXGroup;
 			children = (
 				5AC2DA9F19901EDE0097D57E /* BBRootContainerView.swift */,
 			);
-			name = "root container view";
+			name = "root container";
 			sourceTree = "<group>";
 		};
 		5AC2DAA519904CD50097D57E /* states */ = {
@@ -197,6 +203,30 @@
 				5AC2DAA319904C8C0097D57E /* BBDashboardState.swift */,
 			);
 			name = states;
+			sourceTree = "<group>";
+		};
+		5AC2DAA6199050930097D57E /* root container */ = {
+			isa = PBXGroup;
+			children = (
+				5AC2DA9B19901E9E0097D57E /* BBRootContainerViewController.swift */,
+			);
+			name = "root container";
+			sourceTree = "<group>";
+		};
+		5AC2DAA7199050A30097D57E /* dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				5AC2DAA8199050E60097D57E /* BBDashboardViewController.swift */,
+			);
+			name = dashboard;
+			sourceTree = "<group>";
+		};
+		5AC2DAAA199053120097D57E /* dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				5AC2DAAB1990532C0097D57E /* BBDashboardView.swift */,
+			);
+			name = dashboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,9 +332,11 @@
 				5AC2DA8E199018990097D57E /* AltoState.swift in Sources */,
 				5AC2DA9619901D010097D57E /* BBInitializeState.swift in Sources */,
 				5AC2DA8F199018990097D57E /* AltoStatechart.swift in Sources */,
+				5AC2DAA9199050E60097D57E /* BBDashboardViewController.swift in Sources */,
 				5AC2DAA219902F300097D57E /* BBStatechart.swift in Sources */,
 				5AC2DA9A19901E010097D57E /* AltoViewController.swift in Sources */,
 				5AC2DA9C19901E9E0097D57E /* BBRootContainerViewController.swift in Sources */,
+				5AC2DAAC1990532C0097D57E /* BBDashboardView.swift in Sources */,
 				5AC2DA6D1990154F0097D57E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

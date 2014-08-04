@@ -13,7 +13,8 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
                             
     var window: UIWindow?
-    var rootContainerViewController: UIViewController?
+    var rootContainerViewController: AltoViewController?
+    var centerViewController: AltoViewController?
  
     func application(application: UIApplication!, willFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]!) -> Bool {
         UIApplication.sharedApplication().statusBarOrientation = UIInterfaceOrientation.LandscapeRight
